@@ -82,4 +82,4 @@ TH_DIP_ROM = np.linspace(-np.pi/2,0,300)
 # Little finger transformation matrix (wrist to fingertip)
 TH = TH_MCP_jrot_a * TH_MCP_joffset_a * TH_MCP_ltwist_a * TH_MCP_llength_a * TH_MCP_jrot_f * TH_MCP_llength_f * TH_PIP_jrot * TH_PIP_llength * TH_DIP_jrot * TH_DIP_llength
 
-for i in range(300):
+print(TH)
